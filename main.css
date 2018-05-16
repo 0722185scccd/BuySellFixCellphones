@@ -1,0 +1,177 @@
+html, body, header, nav, ul, li, div, section, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+}
+
+#zaza {
+    height: 80vh;
+    border: 2px solid black;
+    box-shadow: 15px 15px slategrey;
+    background-image: url(01cover.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;    
+}
+
+#title {
+    font-size: 42px
+}
+
+#home {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    border: 5px ridge lightskyblue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+h1, p, footer {
+    display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+header {
+    height: 60px;
+    position: fixed;
+    background-color: black;
+    opacity: .5;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+}
+
+li {
+    margin: 5px;
+}
+
+a {
+    text-decoration-line: none;
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+}
+
+#serv {
+    color: blue;
+}
+
+#logotitle {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+i {
+    color: deepskyblue;
+    background-color: lightgray;
+    border: 3px solid black;
+    width: 100%;
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 10px;
+    padding-top: 50px;
+}
+
+.fas {
+    text-align: center;
+}
+
+.repair {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.stl {
+    margin: 
+    display: inline-block;
+    text-align: center;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 15px 15px 15px  lightgray;
+}
+
+.sec {
+    margin: 40px;
+}
+
+.koko {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 30px;
+}
+
+#margin {
+    padding: 50px;
+    margin-bottom: 0;
+}
+
+#bckimg {
+    width: 1400;
+    height: 300px;
+    border: 1px solid black;
+    background-image: url(GETINTOUCH.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 100px;
+}
+
+#contactinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgray;
+    margin-bottom: 4px;
+    
+}
+
+#call {
+    
+    margin: 10px;
+    
+    color: white;
+}
+
+#text {
+    color: white;
+    padding: 10px;
+}
+
+#email {
+    padding: 10px;
+    color: white;
+}
+
+
+
+
